@@ -1,5 +1,21 @@
-# IntelliJ files
+node_modules
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.iml
+*.ipr
+
+# The following files are generated/updated by vaadin-maven-plugin
+**/node_modules/
+**/src/main/frontend/generated/
+vite.generated.ts
+index.html
 
 # Compiled class file
 *.class
